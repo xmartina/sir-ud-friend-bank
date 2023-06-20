@@ -1,16 +1,16 @@
 <?php
 
-define("WEB_TITLE","Dirtyscripts Developer"); // Change Bank Name
-define("WEB_URL","https://demo.dirtyscripts.shop/bankpro"); // Change No "/" Ending splash
-define("WEB_EMAIL","ofofonobs@gmail.com"); // Change Your Website Email
+define("WEB_TITLE","Fortage Union PLC"); // Change Bank Name
+define("WEB_URL","https://dashboard.fortageunion.com"); // Change No "/" Ending splash
+define("WEB_EMAIL","info@fortageunion.com"); // Change Your Website Email
 
 $web_url = WEB_URL;
 
 function dbConnect(){
     $servername = "localhost";
-    $username = "#";//DATABASE USERNAME
-    $password = "#";//DATABASE PASSWORD
-    $database = "#";//DATABASE NAME
+    $username = "multistream6_test_fortageunion";//DATABASE USERNAME
+    $password = "+C@ppy126";//DATABASE PASSWORD
+    $database = "multistream6_test_fortageunion";//DATABASE NAME
     $dns = "mysql:host=$servername;dbname=$database";
 
     try {
