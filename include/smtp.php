@@ -10,18 +10,18 @@ class message{
         $mail = new PHPMailer();
         //SMTP Settings
         $mail->isSMTP();
-        $mail->Host = "mail.cryptogiant.biz"; // Change Email Host
+        $mail->Host = "mail.quickassistant.me"; // Change Email Host
         $mail->SMTPAuth = true;
-        $mail->Username = "test@cryptogiant.biz"; // Change Email Address
+        $mail->Username = "test@quickassistant.me"; // Change Email Address
         $mail->Password = '+C@ppy126'; // Change Email Password
         $mail->Port = 587; //465; //587
         $mail->SMTPSecure = "ssl"; //tls
 
         //Email Settings
         $mail->isHTML(true);
-        $mail->setFrom('test@cryptogiant.biz','Support Fortage Union'); // Change
+        $mail->setFrom('test@quickassistant.me','Support Fortage Union'); // Change
         $mail->addAddress($email);
-        $mail->AddReplyTo("test@cryptogiant.biz", "Support Fortage Union"); // Change
+        $mail->AddReplyTo("test@quickassistant.me", "Support Fortage Union"); // Change
         $mail->Subject = $subject;
         $mail->MsgHTML($message);
         $mail->Send();
