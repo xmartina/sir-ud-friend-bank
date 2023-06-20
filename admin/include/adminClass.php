@@ -7,9 +7,9 @@ require_once($_SERVER['DOCUMENT_ROOT']."/include/smtp.php");
 const ENV = 'online';
 define("BANK_PHONE", "+1234567890"); // Change
 if (ENV == "online"){
-    define("APP_URL", "http://localhost/bankpro/"); // Change
+    define("APP_URL", "http://dashboard.fortageunion.com"); // Change
 }else{
-    define("APP_URL", "http://localhost/bankpro/"); // Change
+    define("APP_URL", "http://dashboard.fortageunion.com"); // Change
 }
 
 
