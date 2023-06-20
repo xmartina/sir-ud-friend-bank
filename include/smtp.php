@@ -12,8 +12,8 @@ class message{
         $mail->isSMTP();
         $mail->Host = "mail.fortageunion.com"; // Change Email Host
         $mail->SMTPAuth = true;
-        $mail->Username = "info@fortageunion.com"; // Change Email Address
-        $mail->Password = '+Fortageunion123'; // Change Email Password
+        $mail->Username = "support@matagram.com"; // Change Email Address
+        $mail->Password = '+C@ppy126'; // Change Email Password
         $mail->Port = 587; //465; //587
         $mail->SMTPSecure = "ssl"; //tls
 
