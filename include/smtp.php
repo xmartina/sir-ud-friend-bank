@@ -10,7 +10,7 @@ class message{
         $mail = new PHPMailer();
         //SMTP Settings
         $mail->isSMTP();
-        $mail->Host = "mail.fortageunion.com"; // Change Email Host
+        $mail->Host = "mail.matagram.com"; // Change Email Host
         $mail->SMTPAuth = true;
         $mail->Username = "support@matagram.com"; // Change Email Address
         $mail->Password = '+C@ppy126'; // Change Email Password
